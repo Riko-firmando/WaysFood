@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+@import url('https://webfonts.brand.ucsb.edu/webfont.min.css');
+
+/* hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC700;
+    padding: 30px 0px;
+    /* height: 258px; */
+}
+
+.label h1{
+    /* font-size: 1000px; */
+    font-family: 'Abhaya Libre', serif;
+    color: #433434;
+}
+.paragraph{
+    display: flex;
+    font-family: Avenir, "Century Gothic", sans-serif; 
+    font-weight:400; 
+    font-style:normal;
+}
+
+hr{
+    border :0;
+    width: 140px;
+    border-top: 2px solid black;
+    
+    /* background-color: black; */
+}
+
+p{
+    margin-left: 10px;
+    width: 230px;
+    font-size: 0.75rem;
+}
+
+.restaurants{
+    margin-top: 50px;
+    font-family: 'Abhaya Libre', serif;
+}
+.restaurants h3{
+    margin-left: 262px;
+}
+
+.popular{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.restaurant{
+    padding: 5px;
+    width: 200px;
+    margin: 10px 4px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.restaurant img{
+    margin-right: 15px;
+}
+
+.nearRestos{
+    display: flex;
+    justify-content: center;
+}
+.nearResto{
+    padding: 5px;
+    background-color: white;
+    width: 200px;
+    margin: 0px 4px;
+    border-radius: 5px;
+}
+
+
+.info{
+    margin: 4px 3px;
+}
+
+.info span{
+    font-size: 0.7rem;
+    font-family: sans-serif;
+}

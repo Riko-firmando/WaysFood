@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+.list-cart{
+    margin-top: 50px;
+    margin-left: 34px;
+}
+
+input[type=text]{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: -4px;
+}
+
+.maps{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #433434;
+    color: #FFFFFF;
+}
+
+.carts{
+    border-top: 2px solid black;
+    width: 660px;
+    margin-top: 15px;
+}
+.cart{
+    display: flex;
+    padding: 20px 0px;
+    border-bottom: 2px solid black;
+    width: 660px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance:textfield;   
+}
+
+.info{
+    margin-left: 10px;
+}
+
+.info input{
+    width: 30px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    background-color: #F6E6DA;
+    border-radius: 5px;
+}
+
+.info b{
+    font-size: 17px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.info button{
+    width: 30px;
+    height: 20px;
+}
+
+.qty{
+    display: flex;
+    align-items: center;
+}
+
+.qty span{
+    margin: 0px 4px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 20px;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.qty span:nth-child(1){
+    font-size: 27px;
+}
+
+.priceCarts{
+    padding: 15px 0px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 340px;
+    border-top: 2px solid black;
+}
+
+.price{
+    flex: 1;
+    text-align: end;
+}
+
+.subtotal{
+    display: flex; 
+}
+
+.subtotal span{
+    display: block;
+}
+
+.value{
+    flex: 1;
+    text-align: end;
+}
+
+.total{
+    display: flex;
+    font-weight: 700;
+    color: #FF0000;
+    padding: 5px 0px;
+    margin-top: 26px;
+    border-top:2px solid black ;
+    width: 340px;
+}
+
+.total div:nth-child(2){
+    flex: 1;
+    text-align: end;
+}
+
+.footBtn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    padding: 5px 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #433434;
+    color: #FFFFFF;
+}
+
+.footer{
+ min-height: 100px;
+}

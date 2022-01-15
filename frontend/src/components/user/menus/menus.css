@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+.list-menus{
+    margin-top: 60px;
+}
+
+.list-menus h3{
+    margin-left: 52px;
+    margin-bottom: 10px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+}
+
+.menu{
+    border-radius: 5px;
+    padding: 7px;
+    margin: 10px 10px;
+    background-color: white;
+}
+
+.menu img{
+    margin-bottom: 15px;
+    display: block;
+}
+.menu b{
+    margin-left: 5px;
+    display: block;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 18px;
+}
+
+.menu span{
+    margin-left: 5px;
+    color: #FF1515;
+    font-size: 14px;
+}
+
+.menu button{
+    margin-top: 10px;
+    background-color: #FFC700;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}

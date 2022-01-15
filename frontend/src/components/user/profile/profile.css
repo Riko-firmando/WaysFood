@@ -1,0 +1,101 @@
+.profileContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0px 70px;
+}
+
+.profile{
+    flex: 1;
+}
+
+.History{
+    flex: 1;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px;
+}
+
+.profile-info div:nth-child(2),
+.profile-info div:nth-child(3){
+    margin-top: 22px;
+}
+
+.editPro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 175px;
+    font-size: 14px;
+    padding: 5px 50px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #433434;
+    color: #FFFFFF;
+}
+
+.myOrder{
+    display: flex;
+    width: 400px;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+
+.myOrder div h5{
+    font-size: 14px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.myOrder div h6{
+    font-size: 12px;
+    color: #974A4A;
+}
+
+.myOrder div span{
+    font-size: 11px;
+}
+
+.myOrder div:nth-child(2) h5{
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.status-finish {
+    text-align: center;
+    padding: 5px 25px;
+    background-color: #dffceb;
+    color: #00FF47;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    
+}
+.status-pending {
+    text-align: center;
+    padding: 5px 25px;
+    background-color: #ffeebe;
+    color: #ff9900;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    
+}
+.status-failed {
+    text-align: center;
+    padding: 5px 25px;
+    background-color: #f5cfbe;
+    color: #fa570b;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    
+}
+
+
+
+
+.status span{
+    opacity: 1;
+    color: red;
+}

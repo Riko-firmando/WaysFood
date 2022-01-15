@@ -1,0 +1,206 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+/* navbar */
+.navbar{
+  display: flex;
+  padding: 14px 65px;
+  background-color: #FFC700;
+}
+.logo{
+  flex: 1;
+  align-items: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 23px;
+}
+
+.logo span{
+  margin-right: 5px;
+}
+
+.options{
+  flex: 1;
+  /* background-color: brown; */
+  text-align: end;
+}
+
+.options Button{
+  margin-right: 5px;
+  background-color: #433434;
+  border: none;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.options Button:hover{
+  background-color: #433434;
+}
+
+h3{
+  font-family: 'Abhaya Libre', serif;
+}
+
+.dropDownAd{
+  position: absolute;
+}
+
+.Dropdown{
+  display: inline;
+  position: relative;
+}
+
+.dropDownUs{
+  position: absolute;
+  right: 0px;
+  top: 42px;
+  background-color: white;
+  border-radius: 5px;
+  display: none;
+  opacity: 0;
+  transition: all 200ms ease;
+  box-shadow:4px 3px 8px 1px #969696;
+}
+
+.dropDownUs::after{
+  content: '';
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid rgb(255, 255, 255);
+  border-top: 10px solid transparent;
+  display: inline-block;
+  top: -20px;
+  right: 13px;
+}
+
+.Dropdown:hover .dropDownUs{
+  display: block;
+  opacity: 1;
+}
+
+.profileImg{
+  height: 43px;
+  width: 43px;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+
+
+.dropDownUs div{
+  cursor: pointer;
+}
+
+.dropDownUs div:hover{
+  opacity: 0.5;
+}
+
+
+#logout{
+  border-top: 1px solid black;
+}
+.showSignIn{
+  text-decoration: none;
+  color: #B1B1B1;
+}
+
+.showSignIn a{
+  cursor: pointer;
+}
+
+
+
+.inputFile{
+  border: 2px solid #766C6C;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #766C6C;
+}
+
+.inputFile div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mapInfo{
+  box-shadow:4px 3px 8px 1px #969696; 
+  border-radius: 5px;
+}
+
+.cartSpace{
+  position: relative;
+  display: inline;
+}
+
+.cartQty{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  font-size: 12px;
+  color: white;
+  border-radius: 50%;
+  background-color: #F13F3F;
+  right: 18px;
+  top: -3px;
+}
+
+.navbar-profile{
+  height: 40px;
+  width: 40px;
+  border : 1px solid black;
+  border-radius: 50px;
+}
+
+.button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  padding: 5px 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #433434;
+  color: #FFFFFF;
+}
